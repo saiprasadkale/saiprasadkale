@@ -1,18 +1,16 @@
-// import {Route,Routes,Router} from 'react-router-dom';
-
-import About from './components/About';
-import Home from './components/Home';
-import Navbar from './components/Navbar';
+import About from "./components/About";
+import Home from "./components/Home";
+import Navbar from "./components/Navbar";
+import Projects from "./components/Projects";
 
 function App() {
   return (
-    // <ThemeProvider theme={theme}>
     <div className="App">
-      <Navbar/>
+      <Navbar />
       <Home />
-      <About/>
+      <About />
+      <Projects />
     </div>
-    // </ThemeProvider>
   );
 }
 
