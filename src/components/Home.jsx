@@ -62,7 +62,6 @@ export default function Home() {
         </Box>
         <Box mb={5}>
           <Typography variant="h2" fontWeight={"bold"} color={"#111"}>
-            {" "}
             HEY, I'M SAIPRASAD KALE
           </Typography>
         </Box>
