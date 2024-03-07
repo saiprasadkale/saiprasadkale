@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/saiprasadkale/static/css/main.557dace3.css",
-    "main.js": "/saiprasadkale/static/js/main.35fb39bd.js",
+    "main.css": "/saiprasadkale/static/css/main.2e01f924.css",
+    "main.js": "/saiprasadkale/static/js/main.dff1ee7b.js",
     "static/js/787.9a1fec27.chunk.js": "/saiprasadkale/static/js/787.9a1fec27.chunk.js",
     "static/media/logo.png": "/saiprasadkale/static/media/logo.60121f34c5edfadd05ca.png",
     "index.html": "/saiprasadkale/index.html",
-    "main.557dace3.css.map": "/saiprasadkale/static/css/main.557dace3.css.map",
-    "main.35fb39bd.js.map": "/saiprasadkale/static/js/main.35fb39bd.js.map",
+    "main.2e01f924.css.map": "/saiprasadkale/static/css/main.2e01f924.css.map",
+    "main.dff1ee7b.js.map": "/saiprasadkale/static/js/main.dff1ee7b.js.map",
     "787.9a1fec27.chunk.js.map": "/saiprasadkale/static/js/787.9a1fec27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.557dace3.css",
-    "static/js/main.35fb39bd.js"
+    "static/css/main.2e01f924.css",
+    "static/js/main.dff1ee7b.js"
   ]
 }
