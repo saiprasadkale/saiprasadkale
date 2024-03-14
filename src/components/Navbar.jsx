@@ -68,13 +68,13 @@ export default function Navbar() {
           direction={"row"}
           spacing={2}
         >
-          <Button sx={{ fontWeight: "bold" }} color="inherit">
+          <Button sx={{ fontWeight: "bold" }} color="inherit" href="#home">
             HOME
           </Button>
-          <Button sx={{ fontWeight: "bold" }} color="inherit">
+          <Button href="#about" sx={{ fontWeight: "bold" }} color="inherit">
             ABOUT
           </Button>
-          <Button sx={{ fontWeight: "bold" }} color="inherit">
+          <Button href="#project" sx={{ fontWeight: "bold" }} color="inherit">
             PROJECTS
           </Button>
         </Stack>

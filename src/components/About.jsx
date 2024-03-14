@@ -1,22 +1,11 @@
 import { Box, Grid, Link, Typography } from "@mui/material";
 import React from "react";
 import { primary } from "../colors/primary";
-
+import "../style/About.css";
 function About() {
   const boxRender = (text) => {
     return (
-      <Grid
-        item
-        m={".35rem .7rem"}
-        sx={{
-          height: "3rem",
-          borderRadius: ".5rem",
-          padding: "1rem",
-          background: primary.grey,
-          display: "flex",
-          alignItems: "center",
-        }}
-      >
+      <Grid item m={".35rem .7rem"} className="skill-button">
         {text}
       </Grid>
     );
@@ -29,6 +18,7 @@ function About() {
         background:
           "linear-gradient(90deg, rgba(240, 240, 240, 1) 0%, rgba(240, 240, 240, 1) 35%, rgba(240, 240, 240, 1) 100%)",
       }}
+      id="about"
     >
       <Grid
         container
@@ -55,8 +45,8 @@ function About() {
         </Box>
       </Grid>
       <Grid container xs={12}>
-        <Grid item xs={6} p={"3rem 7rem"}>
-          <Box>
+        <Grid item className="get-to-know-me" sm={6} xs={12}>
+          <Box sx={{ textAlign: { xs: "center", sm: "left" } }}>
             <Typography variant="h5" fontWeight={"bold"} my={"1rem"}>
               Get to know me!
             </Typography>
@@ -105,7 +95,7 @@ function About() {
             </Typography>
           </Box>
         </Grid>
-        <Grid item container xs={6} p={"3rem 7rem"} rowSpacing={{ xs: 0 }}>
+        <Grid item container xs={12} sm={6} p={"3rem"} rowSpacing={{ xs: 0 }}>
           {boxRender("HTML")}
           {boxRender("CSS")}
           {boxRender("JavaScript")}
