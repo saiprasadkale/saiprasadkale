@@ -1,6 +1,8 @@
 import { Box, Grid, Typography } from "@mui/material";
 import React from "react";
 
+import "../style/Project.css";
+
 export default function Projects() {
   return (
     <Box
@@ -10,6 +12,7 @@ export default function Projects() {
         background:
           "linear-gradient(90deg, rgba(240, 240, 240, 1) 0%, rgba(240, 240, 240, 1) 35%, rgba(240, 240, 240, 1) 100%)",
       }}
+      id="project"
     >
       <Grid
         container
@@ -22,11 +25,24 @@ export default function Projects() {
             PROJECTS
           </Typography>
         </Box>
-        <Box>
-          <Typography>
-            Thank you for your visit! I'am eagerly working on exciting projects.
-            Be sure to check back soon for the latest updates and developments.
+        <Box sx={{ textAlign: "center", padding: "15px" }}>
+          <Typography
+            width={{ sx: "100%", sm: "50%" }}
+            margin={{ sm: "auto" }}
+            variant="h6"
+            className="easter-egg"
+          >
+            Thank you for your visit!
           </Typography>
+          <Box>
+            <Typography>
+              I am currently developing a MERN-based chat application with
+              real-time chat capabilities using Socket.IO. This project
+              encompasses both group chat and one-on-one chat functionalities,
+              providing users with a dynamic and interactive communication
+              experience. Stay tuned for updates on my profile website!
+            </Typography>
+          </Box>
         </Box>
       </Grid>
     </Box>

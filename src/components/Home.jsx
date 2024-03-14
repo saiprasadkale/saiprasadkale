@@ -2,6 +2,7 @@ import { Box, Grid, Link, Typography } from "@mui/material";
 import React from "react";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { GitHub } from "@mui/icons-material";
+import "../style/Home.css";
 
 export default function Home() {
   return (
@@ -18,18 +19,10 @@ export default function Home() {
         backgroundPosition: "0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px",
         height: "100vh",
       }}
+      id="home"
     >
       <Box sx={{ textAlign: "center", position: "relative", width: "100%" }}>
-        <Box
-          sx={{
-            background: "white",
-            position: "absolute",
-            left: "0",
-            width: "55px",
-            borderRadius: "5px",
-            padding: "5px",
-          }}
-        >
+        <Box className="social">
           <Box
             onClick={() =>
               window.open("https://www.linkedin.com/in/saiprasadkale/")
@@ -65,7 +58,7 @@ export default function Home() {
             HEY, I'M SAIPRASAD KALE
           </Typography>
         </Box>
-        <Box>
+        <Box className="description">
           <Typography variant="h6" fontWeight={"medium"} color={"#333"}>
             A Frontend focused Web Developer building the Frontend of Websites
             and Web

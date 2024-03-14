@@ -1,0 +1,20 @@
+.social {
+  background: white;
+  position: absolute;
+  left: 0;
+  width: 55px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.description {
+  padding: 5px;
+}
+@media screen and (max-width: 600px) {
+  .social {
+    background: white;
+    position: absolute;
+    width: 50px;
+    border-radius: 5px;
+    padding: 5px;
+  }
+}
